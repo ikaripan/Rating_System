@@ -1,0 +1,23 @@
+/* members.css */
+
+/* 会員一覧のスタイリング */
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 20px; /* 上部に余白を追加 */
+  }
+  
+  th, td {
+    border: 1px solid #000; /* セルを線で区切る */
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* 会員追加ボタンのスタイリング */
+  .add-member-container {
+    margin-top: 20px; /* ボタンとテキストフィールド間に余白を追加 */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
